@@ -18,4 +18,7 @@ Requirements: .NET Framework 4.x (shipped with Windows 10/11, no additional
 runtime or third-party dependencies needed).
 
 Run `build_bethkey_ru.bat`, or compile manually:
+```text
+csc /target:winexe /out:BethKEY_ru.exe /win32icon:BethKEY.ico MainForm.cs Core.cs Dialogs.cs ActionHelp.cs ControlMapBinary.cs /r:System.Windows.Forms.dll /r:System.Drawing.dll
+```
 
